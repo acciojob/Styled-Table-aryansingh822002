@@ -1,1 +1,21 @@
 /* your code */
+thead{
+	background-color:lightblue;
+}
+table ,tr{
+	border:solid lightgray 1px;
+	height:30px
+}
+table{
+	border-collapse:collapse;
+	text-align:center;
+	width:100%;
+	border-radius:7px;
+	border-spacing:0;
+	overflow: hidden;
+	font-size:12px
+}
+
+tr:nth-child(2), tr:nth-child(4){
+	background-color:lightgray;
+}
